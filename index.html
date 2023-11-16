@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video">
+        <video autoplay loop>
+            <source src="winter.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="app">
+        <div class="audio">
+            <audio>
+                <source src="meditation.mp3" type="audio/mpeg">
+            </audio>
+            <div class="pause">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/pause-button.png?raw=true" alt="pause">
+            </div>
+            <div class="progress">
+                <svg>
+                    <rect class="rect1" stroke-width="10" rx="8" height="150" width="150" y="25" x="25" stroke="#F07281" fill="transparent"></rect>
+                </svg>
+                <svg>
+                    <rect class="rect" stroke-width="10" rx="8" height="150" width="150" y="25" x="25" stroke="#FFFFFF" fill="transparent"></rect>
+                </svg>
+                <div class="audio-remaining-time">
+                    00:00
+                </div>
+            </div>
+            <div class="play">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/play-button.png?raw=true" alt="play">
+            </div>
+        </div>
+        <div class="durations">
+            <div class="duration" audio-duration="10">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/2min.png?raw=true" alt="10 s">
+                <p>10 s</p>
+            </div>
+            <div class="duration" audio-duration="120">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/2min.png?raw=true" alt="2 min">
+                <p>2 min</p>
+            </div>
+            <div class="duration" audio-duration="300">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/5min.png?raw=true" alt="5 min">
+                <p>5 min</p>
+            </div>
+            <div class="duration" audio-duration="600">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/10min.png?raw=true" alt="10 min">
+                <p>10 min</p>
+            </div>
+            <div class="duration" audio-duration="1200">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/20min.png?raw=true" alt="20 min">
+                <p>20 min</p>
+            </div>
+        </div>
+        <div class="seasons">
+            <div class="season" video-src="winter.mp4">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/winter.png?raw=true" alt="winter">
+            </div>
+            <div class="season" video-src="spring.mp4">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/spring.png?raw=true" alt="spring">
+            </div>
+            <div class="season" video-src="summer.mp4">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/summer.png?raw=true" alt="summer">
+            </div>
+            <div class="season" video-src="autumn.mp4">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/autumn.png?raw=true" alt="autumn">
+            </div>
+            <div class="toggle-menu">
+                <img src="https://github.com/CodeExplainedRepo/Meditation-App-HTML-CSS-JavaScript/blob/main/final%20project/meditation-app/assets/img/right-arrow.png?raw=true" alt="open menu">
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="main1.js"></script>
+    <script src="main2.js"></script>
+    <script src="main3.js"></script>
+</body>
+</html>
